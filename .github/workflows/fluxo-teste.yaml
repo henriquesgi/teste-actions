@@ -1,0 +1,21 @@
+# Fluxo de trabalho
+name: Fluxo-Teste
+
+# Evento
+on: [push]
+
+# Trabalhos
+jobs:
+  # Trabalho 1
+  executa-alguma-coisa:
+    # Executor
+    runs-on: ubuntu-latest
+    steps:
+      # Actions
+      # Executam taréfas rotineiras, complexas e etc.
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: npm install -g bats
+      - run: bats -v
