@@ -1,0 +1,23 @@
+{
+  "name": "teste-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indes.js",
+  "scripts": {
+    "format": "npx prettier --write .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquesgi/teste-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriquesgi/teste-actions/issues"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
