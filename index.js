@@ -3,4 +3,9 @@ function abc(param = "Vazio!") {
 }
 
 const x = abc();
-console.log(x);
+console.log(x)
+
+const   y = abc("oi")
+
+
+console.log(y)
