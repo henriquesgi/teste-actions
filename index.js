@@ -1,10 +1,15 @@
 'use strict'
 
 function abc(param = "Vazio!") {
-  return param;
+
+
+
+
+        return param;
 }
 
-const x = abc();
-console.log(x)
+const x =     abc();
+
+  console.log(x)
 
 y = 123
